@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-container {
+  align-items: center;
+  background-color: hsl(212deg, 45%, 89%);
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.card-container .card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 0.8rem;
+  height: 440px;
+  width: 280px;
+}
+.card-container .card__qr {
+  padding: 0.8rem;
+}
+.card-container .card__qr img {
+  border-radius: 0.8rem;
+  width: 100%;
+}
+.card-container .card__body {
+  padding: 1rem 1.8rem;
+  text-align: center;
+}
+.card-container .card__body p:nth-child(1) {
+  color: hsl(218deg, 44%, 22%);
+  font-size: 1.3rem;
+  font-weight: 900;
+  line-height: 1.25;
+  padding-bottom: 1rem;
+}
+.card-container .card__body p:nth-child(2) {
+  color: hsl(220deg, 15%, 55%);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.card-container .card__link {
+  bottom: 6rem;
+  color: hsl(220deg, 15%, 55%);
+  font-size: 0.8rem;
+  position: absolute;
+  text-align: center;
+  width: inherit;
+}
+.card-container .card__link a {
+  color: inherit;
+  font-size: inherit;
+  font-weight: 700;
+}
+
+@media (max-width: 375px) {
+  .card-container .card {
+    height: 71vh;
+    width: 300px;
+  }
+  .card-container .card__body p:nth-child(1) {
+    font-size: 1.4rem;
+  }
+  .card-container .card__body p:nth-child(2) {
+    color: hsl(220deg, 15%, 55%);
+    font-size: 1rem;
+  }
+  .card-container .card__link {
+    bottom: 5rem;
+  }
+}/*# sourceMappingURL=index.css.map */
