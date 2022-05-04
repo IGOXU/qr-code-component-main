@@ -10,11 +10,11 @@
   .card{
     background-color: color("white");
     border-radius: .8rem;
-    height: 440px;
-    width: 280px;
+    height: 497px;
+    width: 320px;
     
     &__qr{
-      padding: .8rem;
+      padding: 1rem;
       img{
         border-radius: .8rem;
         width: 100%;
@@ -22,12 +22,12 @@
     }
     
     &__body{
-      padding: 1rem 1.8rem;
+      padding: .2rem 2rem;
       text-align: center;
       
       h1{
         color: color("darkblue");
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: 900;
         line-height: 1.25;
         padding-bottom: 1rem;
@@ -35,13 +35,13 @@
       
       p{
         color: color("grayishblue");
-        font-size: .9rem;
+        font-size: 1rem;
         font-weight: 400;
       }
     }
 
     &__link{
-      bottom: 5rem;
+      bottom: 3rem;
       color: color("grayishblue");
       font-size: .8rem;
       position: absolute;

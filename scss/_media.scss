@@ -1,8 +1,6 @@
 @media (max-width: 375px) {
   .card-container{
     .card{
-      height: 71vh;
-      width: 300px;
 
       &__body{
         p:nth-child(1){
@@ -16,7 +14,7 @@
       }
 
       &__link{
-        bottom: 4rem;
+        bottom: 3rem;
       }
     }
   }

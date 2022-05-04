@@ -24,34 +24,34 @@
 .card-container .card {
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 0.8rem;
-  height: 440px;
-  width: 280px;
+  height: 497px;
+  width: 320px;
 }
 .card-container .card__qr {
-  padding: 0.8rem;
+  padding: 1rem;
 }
 .card-container .card__qr img {
   border-radius: 0.8rem;
   width: 100%;
 }
 .card-container .card__body {
-  padding: 1rem 1.8rem;
+  padding: 0.2rem 2rem;
   text-align: center;
 }
 .card-container .card__body h1 {
   color: hsl(218deg, 44%, 22%);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 900;
   line-height: 1.25;
   padding-bottom: 1rem;
 }
 .card-container .card__body p {
   color: hsl(220deg, 15%, 55%);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 .card-container .card__link {
-  bottom: 5rem;
+  bottom: 3rem;
   color: hsl(220deg, 15%, 55%);
   font-size: 0.8rem;
   position: absolute;
@@ -65,10 +65,6 @@
 }
 
 @media (max-width: 375px) {
-  .card-container .card {
-    height: 71vh;
-    width: 300px;
-  }
   .card-container .card__body p:nth-child(1) {
     font-size: 1.4rem;
   }
@@ -77,6 +73,6 @@
     font-size: 1rem;
   }
   .card-container .card__link {
-    bottom: 4rem;
+    bottom: 3rem;
   }
 }/*# sourceMappingURL=index.css.map */
