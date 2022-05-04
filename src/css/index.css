@@ -38,20 +38,20 @@
   padding: 1rem 1.8rem;
   text-align: center;
 }
-.card-container .card__body p:nth-child(1) {
+.card-container .card__body h1 {
   color: hsl(218deg, 44%, 22%);
   font-size: 1.3rem;
   font-weight: 900;
   line-height: 1.25;
   padding-bottom: 1rem;
 }
-.card-container .card__body p:nth-child(2) {
+.card-container .card__body p {
   color: hsl(220deg, 15%, 55%);
   font-size: 0.9rem;
   font-weight: 400;
 }
 .card-container .card__link {
-  bottom: 6rem;
+  bottom: 5rem;
   color: hsl(220deg, 15%, 55%);
   font-size: 0.8rem;
   position: absolute;
@@ -77,6 +77,6 @@
     font-size: 1rem;
   }
   .card-container .card__link {
-    bottom: 5rem;
+    bottom: 4rem;
   }
 }/*# sourceMappingURL=index.css.map */

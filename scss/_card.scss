@@ -25,7 +25,7 @@
       padding: 1rem 1.8rem;
       text-align: center;
       
-      p:nth-child(1){
+      h1{
         color: color("darkblue");
         font-size: 1.3rem;
         font-weight: 900;
@@ -33,7 +33,7 @@
         padding-bottom: 1rem;
       }
       
-      p:nth-child(2){
+      p{
         color: color("grayishblue");
         font-size: .9rem;
         font-weight: 400;
@@ -41,7 +41,7 @@
     }
 
     &__link{
-      bottom: 6rem;
+      bottom: 5rem;
       color: color("grayishblue");
       font-size: .8rem;
       position: absolute;
